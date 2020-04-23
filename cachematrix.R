@@ -1,6 +1,6 @@
 ## This assignment illustrates how R works with scoping
 ## The overall goal of the functions is firstly to define
-## a matrix and store the object, to cache the matrix and its mean. 
+## a matrix and store the object, to cache the matrix and its inverse. 
 ## The second function allows to retrieve the inverse of the
 ## matrix stored in the makeCacheMatrix environment. 
 
