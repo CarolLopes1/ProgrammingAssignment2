@@ -36,7 +36,7 @@ cacheSolve <- function(x, ...) {
             }                       ## if inv is NULL, then cacheSolve gets the matrix 
             data <-x$get()          ## from the input x and determines the inverse.
             inv <- solve(data,...)
-            x$getinverse(inv)
+            x$setinverse(inv)
             inv                     ## print the inverse
             
 }
